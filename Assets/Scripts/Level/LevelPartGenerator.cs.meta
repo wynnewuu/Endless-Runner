@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1cd128b45a2f0e540860d548f24b7a26
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - parentTransform: {instanceID: 0}
+  - stationaryPlatform: {fileID: 5949028183502748385, guid: 489bf8e677236e8498747afdb14db8f5, type: 3}
+  - horizontallyMovingPlatform: {fileID: 8569093472119007724, guid: 2ddb0c583c6c1df4abe0d0e86d05fec9, type: 3}
+  - verticallyMovingPlatform: {fileID: 22302501599746429, guid: 72dee537ce04c214a82f21ad9eb473e4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

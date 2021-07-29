@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1732727746855620264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6579108728335174246}
+  - component: {fileID: 7664968491198621303}
+  - component: {fileID: 5912078379948216299}
+  - component: {fileID: 1755251956690825784}
+  - component: {fileID: 6054147067381682194}
+  - component: {fileID: 1732727746855620265}
+  m_Layer: 0
+  m_Name: MovingPlatformBase
+  m_TagString: MovingPlatformBase
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6579108728335174246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732727746855620264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.25, y: 14.5, z: 0.08}
+  m_LocalScale: {x: 3, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7664968491198621303
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732727746855620264}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5912078379948216299
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732727746855620264}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1755251956690825784
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732727746855620264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6054147067381682194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732727746855620264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2dba5c8125a2db419771aefd5b08865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platformLengthX: -9999
+  startpoint: {x: 0, y: 0, z: 0}
+  endpoint: {x: 0, y: 0, z: 0}
+  pos1X: 0
+  pos2X: 0
+  pos1Y: 0
+  pos2Y: 0
+  moveSpeedX: 0
+  moveSpeedY: 0
+  movement: {x: 0, y: 0, z: 0}
+--- !u!114 &1732727746855620265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732727746855620264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e2fec67d48d1654497d07b4b5121768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 1
+  platformMovesHorizontally: 0
+  oddsEnemyInTen: 0
+  oddsCollectableInTen: 6
+  oddsPowerupInTen: 0
+  enemies:
+  - {fileID: 1259076782966179472, guid: 5d0f84fc92d651f499c37b9705511817, type: 3}
+  - {fileID: 2358756644835226886, guid: 9391c5cdb3dd3304dbb7da1fe7fe872a, type: 3}
+  - {fileID: 3421723646857457312, guid: 897541ec5ae244344820d58679b2ba3e, type: 3}
+  - {fileID: 1805694831342143582, guid: 46809f9a02d09de4b8551282db126d58, type: 3}
+  - {fileID: 8559556971933506130, guid: 0d39c7e3187649b4ea88de786ba3ba7a, type: 3}
+  collectables:
+  - {fileID: 8816490991459197360, guid: f187d91546755d349b2b5da0ef850d51, type: 3}
+  - {fileID: 8574101413158698122, guid: 80fb343209cf81c4cbb367777f698ab6, type: 3}
+  - {fileID: 2253548333969664939, guid: 0467d728a5cfb0843802ad43bbe24b2e, type: 3}
+  - {fileID: 9100412480961871092, guid: e9000488b772bbc4babcfe6b1b1e6c4c, type: 3}
+  - {fileID: 5661545504595762953, guid: 3c0bcce301d9faa4fa2b555b4a614ee9, type: 3}
+  - {fileID: 560323243297722906, guid: 9981572274ab3b547852578029392583, type: 3}
+  - {fileID: 6009008259018586624, guid: 4ec47c709fb98f14f83ca36d8d64409d, type: 3}
+  - {fileID: 8346242314996767635, guid: b4c7f09895136824e8c1ebde3b0b40fd, type: 3}
+  - {fileID: 1713538164358551212, guid: f0bc8e576b6a7e3459a75e0a55e3f67c, type: 3}
+  - {fileID: 8037875437668340150, guid: 710258752d63b3f4198cfd73e32dde03, type: 3}
+  - {fileID: 598056925774489094, guid: 7d8be63314590db44a11129568a355ce, type: 3}
+  - {fileID: 8541122032150439752, guid: c06fa334e1fae9c4c9f25cdd203d6efe, type: 3}
+  - {fileID: 8764359668247164206, guid: 06ea92071ad8fe24490384064b726d37, type: 3}
+  - {fileID: 625899746396052228, guid: 0bf6c1e1febbb9a47a00c416c168f2f9, type: 3}
+  - {fileID: 5686259038405320980, guid: ad494f77c54cf7a4fba77c6370e30f86, type: 3}
+  powerups:
+  - {fileID: 2710503902887104875, guid: 8fde7ff9618837f45abd4a9502389ee2, type: 3}
+  - {fileID: 3742793936173667118, guid: 91afda718286bf2438415634053e7f91, type: 3}
+  - {fileID: 5248483397583993456, guid: 2b0c9cc772f487940944bd8489e9fa0b, type: 3}
+  - {fileID: 2415781104630602374, guid: 2d61245074af0d448850efd2a04be43b, type: 3}
+  - {fileID: 4261036916818705056, guid: 1adcad0e5ec542f49826b90ee0497a3c, type: 3}
+  howFarAbovePlatformEnemy: 1.5
+  howFarAbovePlatformCollectable: 1
+  howFarAbovePlatformPowerup: 0.5
+  validEnemyLevel1: 0101010101
+  validEnemyLevel2: 0101010101
+  validEnemyLevel3: 0101010101
+  validCollectableLevel1: 010101010101010101010101010101
+  validCollectableLevel2: 010101010101010101010101010101
+  validCollectableLevel3: 010101010101010101010101010101
+  validPowerupLevel1: 0101010101
+  validPowerupLevel2: 0101010101
+  validPowerupLevel3: 0101010101

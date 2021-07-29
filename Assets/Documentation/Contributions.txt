@@ -1,0 +1,37 @@
+Group 14 Work Contribution
+
+Cassandra Horne
+- Platform prefabs and scripts
+- Coin texturing, prefab creation
+- Coin and enemy scoring
+- Powerup generation
+- Enemy generation
+- Collectible generation
+- Debugging, testing
+
+Zachary Innes
+- Character movement
+- Player health and health bar
+- Enemy Interaction
+- Damage
+- Bugfixing/testing
+
+Anh Nguyen 
+- Character movement Help
+- Character Animations
+- Scene Management Scripts
+- Level Generation Basis and some optimizations
+- Platform to Level Generation basis and Fire particle System
+- Splash screen Help
+
+Vlad Roata 
+
+Wynne Wu
+- Splash + splash controller script
+- Menu  + Menu button controller script
+- Pause Menu + Pause menu script
+- Help Menu + Help Menu script
+- Score Menu
+- Music for the game
+- Graphic (Background + Underground)
+- Coin + Coin Scoring System + Coin script
