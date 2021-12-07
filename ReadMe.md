@@ -10,4 +10,4 @@ button that pauses/ resumes the game/ button that exits to the main menu,
 current level that the player is on
 
 Here is a video demonstrating the game        
-[![Everything Is AWESOME](https://imgur.com/a/MzYnza5)](https://www.youtube.com/watch?v=UpMcLfoG0gs "Everything Is AWESOME")
+[![Everything Is AWESOME](https://imgur.com/DrvWCX7.png)](https://www.youtube.com/watch?v=UpMcLfoG0gs "Everything Is AWESOME")
